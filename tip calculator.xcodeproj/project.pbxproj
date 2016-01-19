@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		F61C17181C4B21A500D293B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C17171C4B21A500D293B1 /* AppDelegate.swift */; };
 		F61C171A1C4B21A500D293B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C17191C4B21A500D293B1 /* ViewController.swift */; };
-		F61C171D1C4B21A500D293B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61C171B1C4B21A500D293B1 /* Main.storyboard */; };
 		F61C171F1C4B21A500D293B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61C171E1C4B21A500D293B1 /* Assets.xcassets */; };
-		F61C17221C4B21A500D293B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61C17201C4B21A500D293B1 /* LaunchScreen.storyboard */; };
 		F61C172D1C4B21A500D293B1 /* tip_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C172C1C4B21A500D293B1 /* tip_calculatorTests.swift */; };
 		F61C17381C4B21A500D293B1 /* tip_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C17371C4B21A500D293B1 /* tip_calculatorUITests.swift */; };
+		F61C17481C4CE44D00D293B1 /* TipCalculatorStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61C17471C4CE44D00D293B1 /* TipCalculatorStoryboard.storyboard */; };
+		F61C174A1C4CEC9B00D293B1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C17491C4CEC9B00D293B1 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,7 @@
 		F61C17141C4B21A500D293B1 /* tip calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61C17171C4B21A500D293B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F61C17191C4B21A500D293B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F61C171C1C4B21A500D293B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F61C171E1C4B21A500D293B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F61C17211C4B21A500D293B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61C17231C4B21A500D293B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F61C17281C4B21A500D293B1 /* tip calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61C172C1C4B21A500D293B1 /* tip_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorTests.swift; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		F61C17331C4B21A500D293B1 /* tip calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61C17371C4B21A500D293B1 /* tip_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITests.swift; sourceTree = "<group>"; };
 		F61C17391C4B21A500D293B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61C17471C4CE44D00D293B1 /* TipCalculatorStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TipCalculatorStoryboard.storyboard; sourceTree = "<group>"; };
+		F61C17491C4CEC9B00D293B1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 			children = (
 				F61C17171C4B21A500D293B1 /* AppDelegate.swift */,
 				F61C17191C4B21A500D293B1 /* ViewController.swift */,
-				F61C171B1C4B21A500D293B1 /* Main.storyboard */,
+				F61C17471C4CE44D00D293B1 /* TipCalculatorStoryboard.storyboard */,
+				F61C174B1C4CECA700D293B1 /* View Controllers */,
 				F61C171E1C4B21A500D293B1 /* Assets.xcassets */,
-				F61C17201C4B21A500D293B1 /* LaunchScreen.storyboard */,
 				F61C17231C4B21A500D293B1 /* Info.plist */,
 			);
 			path = "tip calculator";
@@ -123,6 +123,14 @@
 				F61C17391C4B21A500D293B1 /* Info.plist */,
 			);
 			path = "tip calculatorUITests";
+			sourceTree = "<group>";
+		};
+		F61C174B1C4CECA700D293B1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F61C17491C4CEC9B00D293B1 /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F61C17221C4B21A500D293B1 /* LaunchScreen.storyboard in Resources */,
 				F61C171F1C4B21A500D293B1 /* Assets.xcassets in Resources */,
-				F61C171D1C4B21A500D293B1 /* Main.storyboard in Resources */,
+				F61C17481C4CE44D00D293B1 /* TipCalculatorStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			files = (
 				F61C171A1C4B21A500D293B1 /* ViewController.swift in Sources */,
 				F61C17181C4B21A500D293B1 /* AppDelegate.swift in Sources */,
+				F61C174A1C4CEC9B00D293B1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +299,6 @@
 			targetProxy = F61C17341C4B21A500D293B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F61C171B1C4B21A500D293B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F61C171C1C4B21A500D293B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F61C17201C4B21A500D293B1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F61C17211C4B21A500D293B1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F61C173A1C4B21A500D293B1 /* Debug */ = {
@@ -398,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tip calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "patyoon.tip-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tip calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "patyoon.tip-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
