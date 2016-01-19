@@ -11,3 +11,4 @@ I only did the required part.
 
 ## GIF walkthrough of all required and optional stories 
 
+![demo](https://raw.githubusercontent.com/patyoon/codepath-prework/master/demo.gif)
