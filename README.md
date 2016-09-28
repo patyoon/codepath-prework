@@ -1,14 +1,46 @@
-# codepath-prework
-prework for codepath ios course
+# Pre-work - tip calculator application for iOS
 
-## How many hours did it take to complete?
+Submitted by: Patrick Yoon
 
-Total of 4-5 hours
+Time spent: 5 hours spent in total
 
-## Which required and optional stories have you completed?
+## User Stories
 
-I only did the required part.
+The following **required** functionality is complete:
 
-## GIF walkthrough of all required and optional stories 
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [X] Settings page to change the default tip percentage.
 
-![demo](https://raw.githubusercontent.com/patyoon/codepath-prework/master/demo.gif)
+The following **optional** features are implemented:
+* [ ] UI animations
+* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [ ] Using locale-specific currency and currency thousands separators.
+* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
+## Video Walkthrough 
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://raw.githubusercontent.com/patyoon/codepath-prework/master/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+It was fun and I can add additional features if needed for tie-breaker for other applications.
+
+## License
+
+    Copyright [yyyy] [name of copyright owner]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
